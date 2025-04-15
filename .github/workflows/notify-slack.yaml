@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: krauters/github-notifier@main
       with:
-        github-token: ${{ secrets.GH_TOKEN_GH_NOTIFIER }}
+        github-tokens: ${{ secrets.GH_TOKEN_GH_NOTIFIER }}
         channels: C077T9CKZ24
         slack-token: ${{ secrets.SLACK_TOKEN_GH_NOTIFIER }}
         with-drafts: true
